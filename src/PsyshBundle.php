@@ -23,8 +23,6 @@ final class PsyshBundle extends Bundle
 {
     public function boot()
     {
-        parent::boot();
-
         /* @var Shell $shell */
         $shell = $this->container->get('psysh.shell');
         Psysh::init($shell);
