@@ -30,4 +30,8 @@ final class PsyshBundle extends Bundle
         Psysh::init($shell);
     }
 
+    public function registerCommands(Application $application)
+    {
+        $application->add($this->container->get('psysh.command.shell_command'));
+    }
 }
