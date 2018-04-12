@@ -9,7 +9,7 @@ version of the bundle (he only has a master branch), I decided to fork.
 ## Install
 
 ```bash
-composer require --dev ameenross/psysh-bundle:^2.0.3
+composer require --dev ameenross/psysh-bundle
 ```
 
 Then, enable the bundle by updating your `app/AppKernel.php` file to enable the bundle:
