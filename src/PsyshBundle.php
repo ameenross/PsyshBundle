@@ -13,6 +13,7 @@ namespace Fidry\PsyshBundle;
 
 use Fidry\PsyshBundle\DependencyInjection\Psysh;
 use Psy\Shell;
+use Symfony\Component\Console\Application;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
