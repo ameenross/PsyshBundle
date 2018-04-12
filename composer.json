@@ -1,7 +1,7 @@
 {
-    "name": "theofidry/psysh-bundle",
+    "name": "ameenross/psysh-bundle",
     "type": "symfony-bundle",
-    "description": "A port of the PHP REPL PsySH for Symfony.",
+    "description": "A port of the PHP REPL PsySH for Symfony 2.x.",
     "keywords": ["console", "psysh", "shell", "REPL", "symfony", "interactive"],
     "license": "MIT",
     "authors": [
@@ -13,6 +13,10 @@
             "name": "Théo FIDRY",
             "email": "theo.fidry@gmail.com",
             "homepage": "https://github.com/theofidry"
+        },
+        {
+            "name": "Ameen Ross",
+            "email": "a.ross@amdev.eu"
         }
     ],
     "require": {
